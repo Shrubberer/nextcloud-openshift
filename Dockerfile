@@ -1,4 +1,4 @@
-FROM quay.io/56401deb-7290-4d8b-8731-baf6d8b5d27d/nginx
+FROM quay.io/openshifttest/nginx-alpine
 
 VOLUME /var/www/html
 COPY nginx.conf /etc/nginx/nginx.conf
