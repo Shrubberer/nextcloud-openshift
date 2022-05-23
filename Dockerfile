@@ -1,4 +1,5 @@
-FROM nginx:alpine
+# Replaced docker repo with quay
+FROM quay.io/openshifttest/nginx-alpine:latest
 
 VOLUME /var/www/html
 COPY nginx.conf /etc/nginx/nginx.conf
